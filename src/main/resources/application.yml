@@ -1,0 +1,23 @@
+
+spring:
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
+  messages:
+    encoding: UTF-8
+
+server:
+  address: 127.0.0.1
+  tomcat:
+    uri-encoding: UTF-8
+  port: 8082
+  servlet:
+    context-path: /jenkinstest
+
+logging:
+  level:
+    org:
+      springframework:
+        data: DEBUG
